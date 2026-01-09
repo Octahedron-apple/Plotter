@@ -1,6 +1,6 @@
 # Plotter
 A Python-based command-line tool that visualizes straight lines on a Cartesian plane. This script allows users to input parameters for different standard forms of linear equations and renders the resulting graph using matplotlib.
-🚀 Features
+ Features
 
   Interactive Menu: Simple CLI interface to select the type of equation.
   Multiple Geometric Forms:
@@ -17,14 +17,14 @@ A Python-based command-line tool that visualizes straight lines on a Cartesian p
 
   Save Functionality: Option to save the generated plot as a .png file.
 
-📋 Prerequisites
+ Prerequisites
 
 To run this script, you need Python installed along with the following libraries:
 
   matplotlib (for plotting)
   numpy (for calculating coordinate arrays)
 
-🛠️ Installation & Setup
+ Installation & Setup
 
   Clone or Download the script to your local machine.
 
