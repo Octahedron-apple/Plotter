@@ -4,9 +4,7 @@ while True:
     print("2. Intercept Form")
     print("3. Normal Form")
     print("4. Exit")
-    
     ch = input("Select option: ")
-    
     if ch == '4':
         break
     plt.figure(figsize=(8, 6))
@@ -20,14 +18,12 @@ while True:
         y = m * x + c
         plt.title(f"Slope Form: y = {m}x + {c}")
         plt.plot(x, y)
-
     elif ch == '2':
         a = float(input("Enter X-intercept (a): "))
         b = float(input("Enter Y-intercept (b): "))
         y = b * (1 - (x / a))
         plt.title(f"Intercept Form: x/{a} + y/{b} = 1")
         plt.plot(x, y)
-
     elif ch == '3':
         p = float(input("Enter Perpendicular Distance (p): "))
         w = float(input("Enter Angle (degrees): "))
@@ -39,5 +35,4 @@ while True:
         name = input("Enter filename: ")
         plt.savefig(f"{name}.png")
         print("Saved.")
-
     plt.show()
